@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    gap: 100px;
+}
+.left{
+    height: 100vh;
+    width: 17vw;
+    position: fixed;
+}
+
+
+.logo{
+    padding: 45px 45px 0px 45px;
+}
+
+.items{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.item:hover{
+    background-color: rgba(34, 27, 27, 0.584);
+}
+
+.left p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    position: absolute;
+    bottom: 10px;
+    gap: 5px;
+
+}
+
+
+
+.right{
+    height: 100vh;
+    width: 83vw;
+    position: relative;
+    left: 17vw;
+    /* background-color: blue; */
+}
+
+.story{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 40vw;
+    height: 15vh;
+    margin-left: 10vw;
+    overflow-x: scroll;
+}
+
+.elem{
+    text-align: center;
+    
+
+}
+
+.elem p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.story::-webkit-scrollbar{
+    display: none;
+}
+
+
+.story img{
+    height: 67px;
+    width: 67px;
+    object-fit: cover;
+    background: linear-gradient(yellow,red,blue,purple,pink);
+    /* background-clip: text; */
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+
+.post{
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40vw;
+    margin-left: 10vw;
+    min-height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.first{
+    width: 30vw;
+    height: 100vh;
+}
+
+.upper{
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 3px;
+}
+
+.upper img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.middle{
+    text-align: center;
+    border: 1px solid rgb(53, 50, 50);
+    border-radius: 15px;
+}
+
+.middle img{
+    height: 550px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 3px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment{
+    display: flex;
+    gap: 18px;
+}
+
+.bottom p{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+hr{
+    height: 0.4px;
+    background-color: rgb(73, 64, 64);
+    width: 100%;
+}
